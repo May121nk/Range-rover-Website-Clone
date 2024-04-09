@@ -1,0 +1,1033 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #cec2c2;
+}
+#nav {
+  height: 11%;
+  width: 100%;
+  /* background-color: red; */
+  border-bottom: 1px solid rgba(128, 128, 128, 0.323);
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background-color: white;
+  padding: 25px 40px;
+}
+#nav #left {
+  display: grid;
+  gap: 20px;
+}
+#nav #left form {
+  display: flex;
+  gap: 20px;
+}
+#nav #left a {
+  /* font-size: 12px; */
+  text-decoration: none;
+  color: black;
+  /* font-weight:10; */
+  margin-top: 8px;
+  font-family: gilroy;
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: 12px;
+  letter-spacing: 2px;
+  /* letter-spacing:2px ;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  font-family:sans-serif;
+  font-family:"gilroy"; */
+}
+#center {
+  font-family: gilroy;
+  margin-left: -295px;
+  /* background-color: white; */
+  font-size: 25px;
+}
+#nav #right {
+  display: flex;
+  gap: 55px;
+}
+#right i {
+  font-size: 25px;
+  gap: 20px;
+}
+
+#bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  background-color: white;
+}
+#video {
+  padding: 40px;
+  overflow: hidden;
+  margin-left: -40px;
+  width: 90vw;
+  height: 93vh;
+  margin-bottom: 64.5px;
+}
+#video button {
+  margin-bottom: 1px;
+  /* padding:15px 30px ; */
+  font-family: gilroy;
+  letter-spacing: 2px;
+}
+#nav #right #a {
+  color: white;
+  background-color: #54616b;
+  padding: 17px 60px;
+  margin-left: -86%;
+  margin-top: 54px;
+  position: fixed;
+  border: 0.1px solid grey;
+}
+#main #nav #right #b {
+  color: black;
+  background-color: #fff;
+  padding: 17px 80px;
+  margin-left: -71.4%;
+  margin-top: 54px;
+  position: fixed;
+  border: 0.1px solid grey;
+}
+#low {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+button {
+  border-right: 2px solid black;
+}
+#low button {
+  padding: 10px 30px;
+  margin-right: 200px;
+  /* margin-bottom:350px; */
+  margin-bottom: -5px;
+  color: white;
+  background-color: black;
+  font-family: gilroy;
+  font-weight: 500;
+  border: none;
+}
+#low h1 {
+  margin-left: 130px;
+  font-size: 35px;
+  font-family: gilroy;
+  font-weight: 50;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+#low h3 {
+  margin-top: 120px;
+  margin-left: -71%;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 525;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+#low button i {
+  color: white;
+  font-size: 20px;
+  /* margin-right: 8px; */
+}
+#btn {
+  border-left: 2px solid black;
+  padding-bottom: 40px;
+  padding: 3px 40px;
+  margin-top: 1px;
+}
+#low #btn i {
+  font-size: 25px;
+}
+#low #btn {
+  margin-top: 2px;
+}
+#low #btn button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#low #btn button:hover i {
+  color: black;
+}
+#page2 {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  padding-right: 150px;
+  padding-left: 100px;
+  background-color: white;
+  border-color: white;
+  padding-top: 30px;
+}
+#page2 img {
+  width: 100%;
+  height: 40%;
+}
+#box {
+  margin-top: 25px;
+  width: 109%;
+  height: 47%;
+  /* background: radial-gradient(orange, blue, salmon, hotpink); */
+  background-color: #877d70;
+  margin-left: -2.7%;
+  padding-top: 110px;
+  padding-left: 70px;
+}
+#box h3 {
+  font-size: 26px;
+  padding-bottom: 13px;
+  line-height: 45px;
+  font-family: gilroy;
+  color: white;
+  font-weight: 100;
+}
+#box h5 {
+  font-family: gilroy;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+}
+#page2 #box i {
+  padding-top: 30px;
+  font-size: 25px;
+}
+#page3 {
+  height: 100%;
+  width: 100%;
+  padding-left: 130px;
+  padding-right: 150px;
+  background-color: white;
+  /* background-image: url(https://www.landroverusa.com/content/dam/lrdx/global/l460/22my/int/L460_22MY_008_GLHD_CROP.jpg.res/JLRHASH6E9004841A04DE8B80A2EC87384877448AA22FA4/L460_22MY_008_GLHD_CROP.jpg); */
+}
+#page3 h1 {
+  font-size: 42px;
+  padding-top: 43px;
+  font-family: gilroy;
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-weight: 100;
+  word-spacing: 3px;
+  line-height: 100px;
+}
+#page3 button {
+  display: flex;
+  gap: 15px;
+  padding: 15px 25px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-family: gilroy;
+  letter-spacing: 2.5px;
+  font-weight: 200;
+}
+#page3 button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#page3 button i {
+  font-size: 16px;
+}
+#page3 img {
+  margin-top: 45px;
+  margin-left: -50px;
+  width: 110%;
+  height: 100%;
+}
+#page3 h3 {
+  margin-top: 90px;
+  /* font-family: gilroy;
+  font-weight: 200;
+  opacity: 0.6;               
+  font-size: 12px;
+  letter-spacing: 1px; */
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 525;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-left: -10px;
+}
+#page3 h2 {
+  margin-top: 85px;
+  /* font-family: sans-serif; */
+  font-family: gilroy;
+  font-weight: 100;
+  opacity: 0.7;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 1px;
+  margin-left: -13px;
+}
+
+#page4 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+#page5 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0.556);
+}
+#page5 img {
+  width: 93%;
+  height: 100%;
+  margin-left: 50px;
+  margin-top: -60px;
+}
+#page5 h3 {
+  margin-top: 125px;
+  font-family: gilroy;
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-left: 95px;
+}
+#page5 h1 {
+  font-size: 42px;
+  padding-top: 43px;
+  font-family: gilroy;
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-weight: 100;
+  word-spacing: 3px;
+  line-height: 100px;
+  margin-left: 95px;
+}
+#page5 p {
+  /* margin-top: 85px; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-left: 95px;
+}
+#page6 {
+  width: 100%;
+  height: 100%;
+  /* background-color: royalblue; */
+  background-color: #fff;
+}
+#page6 button {
+  /* margin-top:-50%; */
+  margin-top: 320px;
+  padding: 18px 50px;
+  margin-left: 100px;
+  /* margin-bottom:350px; */
+  color: white;
+  background-color: black;
+  /* font-family: gilroy;
+  font-weight: 500; */
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  border: none;
+}
+#page6 button img {
+  font-size: 10px;
+}
+#page6 button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#page6 h4 {
+  margin-top: 50px;
+  margin-left: 100px;
+  font-family: gilroy;
+  font-weight: 100;
+  font-size: 15px;
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+#page7 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+#page7 img {
+  width: 91.5%;
+  height: 100%;
+  margin-left: 65px;
+  margin-top: -250px;
+}
+#page7 h3 {
+  margin-top: 90px;
+  font-family: gilroy;
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-left: 115px;
+}
+#page8 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+#page8 h1 {
+  margin-top: -45px;
+  margin-left: 120px;
+  font-size: 35px;
+  font-family: gilroy;
+  font-weight: 50;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+#page8 p {
+  margin-top: 25px;
+  margin-left: 120px;
+  font-family: sans-serif;
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+#page8 h4 {
+  font-family: "gilroy";
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-top: 25px;
+  font-size: 5opx;
+  margin-left: 113px;
+}
+#page8 h4 i {
+  font-size: 19px;
+  opacity: 0.7;
+}
+#page8 img {
+  margin-top: 90px;
+  width: 91.5%;
+  height: 100%;
+  margin-left: 55px;
+}
+#page8 h3 {
+  margin-top: 90px;
+  font-family: gilroy;
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-left: 115px;
+}
+#page9 {
+  width: 100%;
+  height: 100%;
+  margin-top: 300px;
+  background-color: white;
+}
+#page9 h3 {
+  margin-top: 90px;
+  font-family: gilroy;
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-left: 115px;
+}
+#page9 h1 {
+  margin-top: 90px;
+  margin-left: 120px;
+  font-size: 35px;
+  font-family: gilroy;
+  font-weight: 50;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+#page9 p {
+  margin-top: 25px;
+  margin-left: 120px;
+  font-family: sans-serif;
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+#page9 h4 {
+  font-family: "gilroy";
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-top: 25px;
+  font-size: 5opx;
+  margin-left: 113px;
+}
+#page9 h4 i {
+  font-size: 19px;
+  opacity: 0.7;
+}
+#page9 img {
+  margin-top: 90px;
+  width: 91.5%;
+  height: 100%;
+  margin-left: 62px;
+}
+#page10 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+#page10 img {
+  margin-top: 690px;
+  width: 91.5%;
+  height: 100%;
+  margin-left: 62px;
+  padding-bottom: 20px;
+}
+#page10 > a {
+  margin-left: 90px;
+  text-decoration: none;
+  color: #54616b;
+  font-family: "gilroy";
+  font-weight: 100;
+  opacity: 0.9;
+}
+#page11 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+#page11 #line {
+  width: 87%;
+  margin-left: 88px;
+  height: 1px;
+  background-color: grey;
+  margin-top: 735px;
+  border-radius: 50px;
+}
+#page11 #line #inline {
+  width: 20%;
+  height: 5px;
+  background-color: black;
+  margin-top: 735px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+#page11 h1 {
+  font-size: 25px;
+  font-family: gilroy;
+  font-weight: 100;
+  font-weight: 50;
+  letter-spacing: 3px;
+  line-height: 25px;
+  margin-top: 40px;
+  margin-left: 85px;
+}
+#page11 button {
+  padding: 18px 25px;
+  margin-left: 584px;
+
+  margin-top: -10%;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  border: none;
+}
+#page11 button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#page11 > p {
+  margin-left: 590px;
+  margin-top: -90px;
+}
+#page11 h2 {
+  font-size: 37px;
+  font-family: gilroy;
+  font-weight: 100;
+  font-weight: 50;
+  letter-spacing: 3px;
+  line-height: 25px;
+  margin-top: 230px;
+  margin-left: 90px;
+}
+#page11 h5 {
+  margin-top: -90px;
+  margin-left: 580px;
+  font-family: sans-serif;
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+#page11 p {
+  margin-top: 35px;
+  margin-left: 90px;
+  font-family: sans-serif;
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+#page12 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+#page12 img {
+  margin-top: -280px;
+  width: 91.5%;
+  height: 100%;
+  margin-left: 62px;
+}
+#main #page12 a {
+  margin-top: 3%;
+  color: black;
+  margin-right: -60px;
+  margin-left: 90px;
+  text-decoration: none;
+  color: #54616b;
+  font-family: "gilroy";
+  font-weight: 100;
+  opacity: 0.9;
+}
+#page12 #line {
+  width: 87%;
+  margin-left: 88px;
+  height: 1px;
+  background-color: grey;
+  margin-top: -20px;
+  border-radius: 50px;
+}
+#page12 #line #inline {
+  width: 20%;
+  height: 5px;
+  background-color: black;
+  margin-top: 60px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+#page12 h1 {
+  font-size: 25px;
+  font-family: gilroy;
+  font-weight: 100;
+  font-weight: 50;
+  letter-spacing: 3px;
+  line-height: 25px;
+  margin-top: 40px;
+  margin-left: 85px;
+}
+#page12 h3 {
+  margin-top: 10px;
+  font-family: gilroy;
+  font-weight: 200;
+  opacity: 0.6;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-left: 85px;
+}
+#page12 h5 {
+  margin-top: -90px;
+  margin-left: 580px;
+  font-family: sans-serif;
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+#page12 button {
+  padding: 18px 25px;
+  margin-left: 584px;
+
+  margin-top: 1%;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  border: none;
+}
+#page12 button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#page12 form i {
+  font-size: 15px;
+}
+#page12 h4 {
+  font-family: "gilroy";
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-top: 25px;
+  font-size: 5opx;
+  margin-left: 580px;
+  opacity: 0.8;
+}
+#page12 h4 i {
+  font-size: 19px;
+  opacity: 0.7;
+}
+#page13 {
+  width: 100%;
+  height: 100%;
+}
+#border {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.496);
+  margin-top: 600px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#page13 h1 {
+  font-size: 36px;
+  font-family: gilroy;
+  font-weight: 100;
+  font-weight: 50;
+  letter-spacing: 5px;
+  line-height: 25px;
+  margin-top: 160px;
+  margin-left: 110px;
+}
+#page13 #boxes {
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  /* background-color: greenyellow; */
+  display: flex;
+  justify-content: space-around;
+  padding: 0 110px;
+  gap: 50px;
+}
+#page13 #boxes #box1 {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  background-image: url(./range\ rover\ seventh.avif);
+  background-size: cover;
+  background-position-x: 40%;
+}
+#page13 #boxes #box2 {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  background-image: url(./range\ rover\ girl\ -\ Copy.avif);
+  background-size: cover;
+  background-position-x: 50%;
+}
+#page13 #boxes #box3 {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  background-image: url(./ranger\ rover\ steering.avif);
+  background-size: cover;
+}
+#page13 #boxes #box4 {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  background-image: url(./range\ rover\ fifth.avif);
+  background-size: cover;
+}
+#page13 #boxes #box1 h1 {
+  font-size: 15px;
+  font-family: gilroy;
+  font-weight: 100;
+  font-weight: 50;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-top: 225px;
+  margin-left: 10px;
+}
+#page13 #boxes #box1 p {
+  margin-top: 15px;
+  font-size: 17px;
+  margin-left: 7px;
+}
+#page13 #boxes #box1 h3 {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+#page13 #boxes #box2 h1 {
+  font-size: 15px;
+  font-family: gilroy;
+  font-weight: 100;
+  font-weight: 50;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-top: 225px;
+  margin-left: 2px;
+}
+#page13 #boxes #box2 p {
+  margin-top: 15px;
+  font-size: 17px;
+  margin-left: 3px;
+}
+#page13 #boxes #box2 h3 {
+  margin-left: 3px;
+  margin-top: 15px;
+}
+#page13 #boxes #box3 h1 {
+  font-size: 15px;
+  font-family: gilroy;
+  font-weight: 100;
+  font-weight: 50;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-top: 225px;
+  margin-left: 2px;
+}
+#page13 #boxes #box3 p {
+  margin-top: 15px;
+  font-size: 17px;
+  margin-left: 3px;
+}
+#page13 #boxes #box3 h3 {
+  margin-left: 7px;
+  margin-top: 15px;
+}
+#page13 #boxes #box4 h1 {
+  font-size: 15px;
+  font-family: gilroy;
+  font-weight: 100;
+  font-weight: 50;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-top: 225px;
+  margin-left: 8px;
+}
+#page13 #boxes #box4 p {
+  margin-top: 15px;
+  font-size: 17px;
+  margin-left: 7px;
+}
+#page13 #boxes #box4 h3 {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+#page13 button {
+  display: flex;
+  gap: 15px;
+  padding: 15px 25px;
+  margin-top: -300px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-family: gilroy;
+  letter-spacing: 2.5px;
+  margin-left: 112px;
+  font-weight: 200;
+}
+#page13 button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#page13 button i {
+  font-size: 17px;
+}
+#page14 {
+  margin-top: 160px;
+  height: 100%;
+  width: 100%;
+  /* background-color:rgba(128, 128, 128, 0.488); */
+  background-color: rgba(240, 255, 255, 0.592);
+}
+#page14 > a {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: black;
+  margin-top: 30px;
+  margin-left: 125px;
+}
+#page14 .as {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+#page14 > .as:hover {
+  text-decoration: underline;
+}
+#page14 #a {
+  font-family: gilroy;
+  font-weight: 100;
+  margin-top: 28px;
+  margin-left: 60px;
+}
+#page14 #a:hover {
+  text-decoration: none;
+}
+#page14 #b {
+  margin-top: 18px;
+  margin-left: 60px;
+}
+#page14 #c {
+  margin-top: 18px;
+  margin-left: 60px;
+}
+#page14 #d {
+  margin-top: 18px;
+  margin-left: 60px;
+}
+#page14 #e {
+  margin-top: 18px;
+  margin-left: 60px;
+}
+#page14 .bs {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+#page14 > .bs:hover {
+  text-decoration: underline;
+}
+#page14 #f {
+  font-family: gilroy;
+  font-weight: 100;
+  margin-top: -145px;
+  margin-left: 450px;
+}
+#page14 #f:hover {
+  text-decoration: none;
+}
+#page14 #g {
+  margin-top: 18px;
+  margin-left: 450px;
+}
+#page14 #h {
+  margin-top: 18px;
+  margin-left: 450px;
+}
+#page14 #i {
+  margin-top: 18px;
+  margin-left: 450px;
+}
+#page14 #j {
+  margin-top: 18px;
+  margin-left: 450px;
+}
+#page14 #k {
+  margin-top: 18px;
+  margin-left: 450px;
+}
+#page14 #kk {
+  font-family: gilroy;
+  font-weight: 100;
+  margin-top: -175px;
+  margin-left: 780px;
+}
+#page14 .cs {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-left: 840px;
+  margin-top: -27px;
+  line-height: 2px;
+}
+#page14 > .cs:hover {
+  text-decoration: underline;
+}
+#page14 #l {
+  font-family: gilroy;
+  font-weight: 100;
+}
+#page14 #l:hover {
+  text-decoration: none;
+}
+#page14 #n {
+  font-family: gilroy;
+  font-weight: 100;
+}
+#page14 #n:hover {
+  text-decoration: none;
+}
+/* #page14  #icons img{
+  margin-top: 25px;
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+  margin-left:78%;
+  
+} */
+#page14 h5 {
+  font-size: 15px;
+  font-family: gilroy;
+  font-weight: 100;
+  margin-left: 78%;
+  margin-bottom: -10px;
+}
+#page14 h3 {
+  margin-top: -20px;
+  font-size: 15px;
+  margin-left: 81.3%;
+}
+#page14 #border1 {
+  border-top: 1px solid rgba(128, 128, 128, 0.649);
+  margin-top: 120px;
+}
+#page14 #border2 {
+  border-top: 1px solid rgba(128, 128, 128, 0.649);
+  margin-top: 10px;
+}
+#page14 #border1 > span {
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-left: 12px;
+}
+#page14 i {
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-top: -60px;
+  margin-left: 77.9%;
+}
+#page14 i:hover {
+  background-color: blue;
+  color: whitesmoke;
+}
+#page14 #kl:hover {
+  background-color: rgb(212, 2, 2);
+  color: whitesmoke;
+}
+#page14 #border2 > img {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+#page14 #border2 > h4 {
+  margin-top: 30px;
+  margin-left: 45px;
+  margin-bottom: 15px;
+}
+#page14 #border2 > h6 {
+  margin-top: 20px;
+  margin-left: 45px;
+  margin-bottom: 15px;
+}
